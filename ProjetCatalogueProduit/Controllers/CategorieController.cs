@@ -13,7 +13,8 @@ namespace ProjetCatalogueProduit.Controllers
         // GET: Categorie
         public ActionResult Index()
         {
-            return View();
+            //return View();
+            return View("Index");
         }
 
         public ActionResult AjoutCategorie()
