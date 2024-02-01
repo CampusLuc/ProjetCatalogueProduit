@@ -157,7 +157,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Categorie\AjoutCategorie.cshtml" />
     <Content Include="Views\Produit\AjoutProduit.cshtml" />
-    <Content Include="Views\Categorie\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

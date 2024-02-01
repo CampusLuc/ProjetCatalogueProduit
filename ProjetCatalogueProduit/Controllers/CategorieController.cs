@@ -13,7 +13,6 @@ namespace ProjetCatalogueProduit.Controllers
         // GET: Categorie
         public ActionResult Index()
         {
-            //return View();
             return View("Index");
         }
 
@@ -41,9 +40,9 @@ namespace ProjetCatalogueProduit.Controllers
                         db.CAT_CATEGORIE.Add(categorie);
                         db.SaveChanges();
                     }
-                    return RedirectToAction("Index");
+                    
                 }
-                return View(categorie);
+                return RedirectToAction("AjoutCategorie");
             }
             catch (Exception e)
             {
